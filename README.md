@@ -2,11 +2,11 @@
 ![](luoji.jpeg)
 
 # config.conf的填写规范  
-*logpath* : 日志输出路径
-*loglevel* : 日志级别
-*push_path*: push数据的路径,默认我指定了open-falcon
+*logpath* : 日志输出路径  
+*loglevel* : 日志级别  
+*push_path*: push数据的路径,默认我指定了open-falcon  
 
-*type* : 监控的类型,single 单机模式,repl 副本集模式.
+*type* : 监控的类型,single 单机模式,repl 副本集模式.  
 *mach_list*: 监控机器列表,repl仅需提供一个列表即可,后续由程序主动获取拓扑并写会配置文件.
 
 # 监控说明
